@@ -2,7 +2,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Layout from '../components/Layout'
 
-const Contact = () => {
+export default function Contact() {
     return <Layout title='Contact'>
       <div className={styles.card}>
         <div className={styles.card_inner}>
@@ -74,4 +74,3 @@ const Contact = () => {
     </Layout>
 }
 
-export default Contact;
